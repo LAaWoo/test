@@ -1,0 +1,46 @@
+.clean-block .block-heading p {
+  text-align: center;
+  max-width: 1200px;
+  margin: auto;
+  opacity: .7;
+}
+
+@media (min-width: 1200px) {
+  h1, .h1 {
+    font-size: 3.5rem;
+  }
+}
+
+p {
+  margin-top: auto;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 576px) {
+  .clean-block.clean-hero {
+    min-height: 480px;
+  }
+}
+
+.clean-block.clean-hero p {
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+.clean-block.clean-hero .text {
+  max-width: 800px;
+  color: #fff;
+  z-index: 2;
+  padding: 40px 15px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.15);
+}
+
+.clean-block.clean-info h3, .clean-block.clean-info .h3 {
+  margin-top: .8em;
+  margin-bottom: 1.5em;
+}
+
+p {
+  /*margin-top: 200px;*/
+}
+

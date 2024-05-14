@@ -1,0 +1,23 @@
+.w-100 {
+  width: 100% !important;
+}
+
+@media (min-width: 1200px) {
+  .col-xl-3 {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+}
+
+@media (min-width: 576px) {
+  .clean-block.clean-hero {
+    min-height: 1188px;
+  }
+}
+
+.clean-navbar .navbar-nav .nav-link {
+  font-weight: 600;
+  font-size: small;
+  text-transform: uppercase;
+}
+
